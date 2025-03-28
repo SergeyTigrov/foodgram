@@ -7,7 +7,7 @@ export const Footer = () => {
                 <div className="flex items-center justify-between h-full max-[730px]:flex-col">
                     <div className="max-w-[154px] max-h-[43px] -mt-[12px] cursor-pointer">
                         <Link to="/">
-                            <img className="w-full h-full" src="/images/logoWhite.png" alt="logo foodgram" />
+                            <img className="w-full h-full" src="logoWhite.png" alt="logo foodgram" />
                         </Link>
                     </div>
                     <div className="flex items-center gap-x-[28px] text-[16px] font-[500] max-[730px]:flex-col max-[730px]:gap-y-[24px]">

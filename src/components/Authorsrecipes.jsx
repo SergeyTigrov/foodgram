@@ -12,7 +12,7 @@ export const Authorsrecipes = ({ cardsArray, setSelectedCard, setSelectedAuthor,
                 <div className="flex items-center justify-between mb-[40px] gap-x-[107px] gap-y-[30px] flex-wrap">
                     <div className="flex items-center">
                         <div className="max-w-[60px] max-h-[60px] mr-[24px] shrink-0">
-                            <img className="w-full h-full" src="/images/person.png" alt="person" />
+                            <img className="w-full h-full" src="person.png" alt="person" />
                         </div>
                         <h1 className="text-[54px] font-[600] leading-[54px] max-[730px]:text-[34px] max-[770px]:leading-[110%]">
                             {selectedAuthor}
