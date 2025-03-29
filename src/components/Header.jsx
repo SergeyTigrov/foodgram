@@ -9,7 +9,11 @@ export const Header = () => {
                 <div className="flex items-center justify-between">
                     <div className="max-w-[154px] max-h-[43px] -mt-[12px] cursor-pointer">
                         <Link to="/">
-                            <img className="w-full h-full" src="logo.png" alt="logo" />
+                            <img
+                                className="w-full h-full"
+                                src={`${import.meta.env.BASE_URL}/images/logo.png`}
+                                alt="logo"
+                            />
                         </Link>
                     </div>
                     <div>

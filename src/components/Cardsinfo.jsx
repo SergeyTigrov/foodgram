@@ -9,7 +9,7 @@ export const Cardsinfo = ({ selectedCard, setSelectedAuthor }) => {
                         <div className="w-[370px] h-[440px] max-[850px]:w-full max-[730px]:h-[240px]">
                             <img
                                 className="w-full h-full object-cover object-center"
-                                src={`${selectedCard.img}.jpg`}
+                                src={`${import.meta.env.BASE_URL}/images/${selectedCard.img}.jpg`}
                                 alt={selectedCard.img}
                             />
                         </div>
@@ -34,7 +34,7 @@ export const Cardsinfo = ({ selectedCard, setSelectedAuthor }) => {
                                         <div className="max-w-[36px] max-h-[36px] mr-[12px]">
                                             <img
                                                 className="w-full h-full"
-                                                src={`${selectedCard.authorImg}`}
+                                                src={`${import.meta.env.BASE_URL}/images/${selectedCard.authorImg}`}
                                                 alt="person"
                                             />
                                         </div>

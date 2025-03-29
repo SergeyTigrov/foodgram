@@ -21,7 +21,9 @@ export const Signup = () => {
     };
 
     return (
-        <section className="flex-1 flex items-center justify-center bg-[url(/images/honey.jpg)] bg-center bg-no-repeat bg-cover p-[20px] max-[730px]:py-[70px]">
+        <section
+            className={`flex-1 flex items-center justify-center bg-[url(${import.meta.env.BASE_URL}/images/honey.jpg)] bg-center bg-no-repeat bg-cover p-[20px] max-[730px]:py-[70px]`}
+        >
             <form
                 onSubmit={handleSubmit}
                 className="bg-[#fff] flex items-center flex-col p-[60px] rounded-[40px] w-full max-w-[530px] max-[730px]:px-[20px] max-[730px]:py-[40px]"

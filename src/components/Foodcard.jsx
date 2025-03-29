@@ -7,7 +7,7 @@ export default function Foodcard({ card, setSelectedCard, setSelectedAuthor }) {
                 <Link to="/info">
                     <img
                         className="w-full h-full object-cover object-center opacity-[1] cursor-pointer transition-opacity duration-200 hover:opacity-[.8]"
-                        src={`${card.img}.jpg`}
+                        src={`${import.meta.env.BASE_URL}/images/${card.img}.jpg`}
                         alt={card.img}
                     />
                 </Link>
@@ -35,7 +35,11 @@ export default function Foodcard({ card, setSelectedCard, setSelectedAuthor }) {
                 </Link>
                 <div className="flex items-center mb-[36px] text-[14px] leading-[17px]">
                     <div className="max-w-[36px] max-h-[36px] mr-[12px]">
-                        <img className="w-full h-full" src={`${card.authorImg}`} alt="person" />
+                        <img
+                            className="w-full h-full"
+                            src={`${import.meta.env.BASE_URL}/images/${card.authorImg}`}
+                            alt="person"
+                        />
                     </div>
                     <Link to="/author">
                         <div

@@ -12,7 +12,7 @@ export const Notfound = () => {
             <div className="max-w-[1200px] px-[50px] pb-[50px] pt-[20px] my-[0] mx-auto">
                 <div className="flex items-center flex-col">
                     <div className="max-w-[215px] max-h-[109px]">
-                        <img className="w-full h-full" src="oops.png" alt="oops" />
+                        <img className="w-full h-full" src={`${import.meta.env.BASE_URL}/images/oops.png`} alt="oops" />
                     </div>
                     <div className="my-[50px] text-[34px] font-[600] text-center">Страница не найдена</div>
                     <button
